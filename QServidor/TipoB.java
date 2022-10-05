@@ -2,6 +2,10 @@ package QServidor;
 
 public class TipoB extends Servidor{
     @Override
+    public void ConectarServidor(){
+        System.out.println("Conectando servidor");
+    }
+    @Override
     public void ExtrairDados(){
         System.out.println("Servidor do tipo B extraindo dados");
     }

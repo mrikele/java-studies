@@ -1,6 +1,9 @@
 package QServidor;
 
 public abstract class Servidor {
+    public void ConectarServidor(){
+        System.out.println("Conectando servidor");
+    }
     public void ExtrairDados(){
         System.out.println("Extraindo dados do servidor");
     }
